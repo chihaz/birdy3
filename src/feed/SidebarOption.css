@@ -1,0 +1,25 @@
+.sidebarOption {
+  display: flex;/*permet de mettre l'img et la desc cote a cote*/
+  /*cursor: progress;*/
+  cursor: pointer;/*transforme le curseur*/
+  align-items: center;/*aligne les element, le texte sera au centre de l'img */
+  padding: 11px;
+}
+
+.sidebarOption:hover {
+  background-color: rgb(115, 133, 160); /*couleur au survole*/
+  border-radius: 18px;/*arrondis des bords*/
+  color: mintcream;/*couleur du texte*/
+  transition: color 300ms ease-out; /*affichage progressive de la couleur du texte*/
+  
+}
+
+
+.sidebarOption > h6 {
+  font-weight: 500;/*epaisseur du text*/
+  font-size: 14px;/*taille du texte*/}
+/*marchePAs
+.sidebarOption--active { /*permet de garder la couleur du texte lorsque l'on est sur la page
+  color: red;
+  
+}*/
